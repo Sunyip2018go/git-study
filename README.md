@@ -1,2 +1,4 @@
 # git-study
-This is a git study project
+
+这是git练习项目
+
