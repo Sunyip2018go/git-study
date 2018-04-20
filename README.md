@@ -1,4 +1,4 @@
-# git 入门
+# 一、git 入门
 摘自：[Github常用命令](https://funteas.com/topic/5ad7ebae230d1e5e25e45b4d)
 > Workspace：工作区(编辑区)
 
@@ -79,3 +79,53 @@
 ```git pull [remote] [branch]``` 拉取远端代码，并与本地合并
 
 ```git push [remote] [branch]``` 推送本地代码至远端分支
+
+# 二、.gitignore配置
+
+
+### 匹配规则
+> **"#"**：表示注释
+
+> **"!"**：非
+
+> **"/"**：目录层级
+
+> **"*"**：通配符
+
+#### 举个栗子
+
+```
+
+```/src```     忽略根目录下的src文件夹
+
+```*.log```    忽略所有.log文件
+
+```src/```     忽略src下所有的文件夹及文件
+
+```!/src/js``` 不忽略根目录下的src文件夹下的js文件夹
+```
+
+
+# 三、VS Code中使用git
+
+VS Code默认自带git，点击侧边栏中间图标进入git界面：
+
+![git按钮](http://p7gy79w3b.bkt.clouddn.com/git-button.png)
+
+界面中1为当前分支，2为变更的文件：
+
+![git界面](http://p7gy79w3b.bkt.clouddn.com/git-interface1.png)
+
+鼠标移动到变更的文件上，右侧出现3个按钮，点击＋：
+
+![git界面](http://p7gy79w3b.bkt.clouddn.com/git-interface2.png)
+
+然后输入提交信息，点击提交：
+
+![git界面](http://p7gy79w3b.bkt.clouddn.com/git-interface3.png)
+
+最后点击提交按钮旁边的三个小点，找到推送，点击
+
+
+
+
