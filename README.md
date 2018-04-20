@@ -20,6 +20,8 @@
 
 ## 增加/删除文件
 
+### 增加文件
+
 ```git add [file1] [file2]``` 添加指定文件到暂存区
 
 
@@ -30,6 +32,7 @@
 
 
 ```git add -p``` 同一文件多处变化，分次提交
+### 删除文件
 
 ```git rm [file1] [file2]``` 删除工作区文件，并将这次删除放入暂存区
 
@@ -44,25 +47,32 @@
 
  ## 分支
 
+ ### 查看分支
+
  ```git branch``` 列出所有分支
 
  ```git branch -r``` 列出所有远程分支
 
  ```git branch -a``` 列出所有本地分支和远程分支
 
+ ### 新建分支
+
  ```git branch [branch-name]``` 新建分支，停留在当前分支
 
  ```git checkout -b [branch-name]``` 新建分支并切换后新建分支
+ ### 切换分支
 
  ```git checkout [branch-name]``` 切换分支
 
  ```git checkout -``` 切换到上一分支
+ ### 合并分支
 
  ```git merge [branch-name]``` 合并分支到当前分支
 
  ```git cherry-pick [commit]``` 选择一个commit合并到当前分支
 
-```git branch -d [branch-name]``` 删除分支
+### 删除分支
+```git branch -d [branch-name]``` 删除分支(删除的分支不是当前分支)
 
 ```git push origin --delete [branch]``` 删除远程分支
 
