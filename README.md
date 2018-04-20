@@ -14,10 +14,6 @@
 
 ```git init [project-name]``` 新建目录，将其初始化为git仓库
 
-## 拷贝下载远端代码
-
-```git clone [地址]```
-
 ## 下载远程项目
 
 ```git clone [url]```
@@ -47,7 +43,7 @@
  ```git commit -a``` 提交工作区自上次commit之后的变化至仓库
 
  ## 分支
- 
+
  ```git branch``` 列出所有分支
 
  ```git branch -r``` 列出所有远程分支
