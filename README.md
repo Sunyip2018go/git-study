@@ -106,13 +106,15 @@
 
 ```
 
-```/src```     忽略根目录下的src文件夹
+*.log    忽略所有.log文件
 
-```*.log```    忽略所有.log文件
+npm-debug.log* 忽略npm-debug.log文件(*是匹配log后面的内容)
 
-```src/```     忽略src下所有的文件夹及文件
+src/     忽略src文件夹
 
-```!/src/js``` 不忽略根目录下的src文件夹下的js文件夹
+src/**/index.js 忽略src下的所有index
+
+!/src/js 不忽略根目录下的src文件夹下的js文件夹
 ```
 
 
